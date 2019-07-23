@@ -1,0 +1,102 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<script type="text/javascript" src="javasc/scriptim.js"></script>
+
+<body class="body">
+<nav role="navigation">
+  <div id="menuToggle">
+    <link href="css/hamburger.css" type="text/css" rel="stylesheet" script="scriptim" />
+    <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+    <input type="checkbox" />
+
+    <!--
+      Some spans to act as a hamburger.
+
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+    <ul id="menu">
+      <a href='main.html'>
+        <li>Ana Sayfa</li>
+      </a>
+      <a href='bildirim.html'>
+        <li>Bildirimler</li>
+      </a>
+      <a href='ekle.html'>
+        <li>Ürün Ekle</li>
+      </a>
+      <a href='tumu.html'>
+        <li>Ürün Listesi</li>
+      </a>
+      <a href='rapor.html'>
+        <li>Raporlar</li>
+      </a>
+
+    </ul>
+  </div>
+</nav>
+<link href="css/ben.css" type="text/css" rel="stylesheet" script="javasc/scriptim"/>
+
+<div class="AraForm">
+
+
+<button class="arabutton" type="submit" name="btnben" onclick="window.location.href = 'tumu.html';">Benim Eklediklerim
+</button>
+<button class="arabutton" type="submit" name="btnmag"
+  onclick="window.location.href = 'tumumagaza.html';">Mağazam</button>
+<button class="btnben" type="submit" name="btntum" onclick="window.location.href = 'tumutummagaza.html';">Tüm
+  Mağazalar</button>
+      
+
+ 
+      <div>
+       
+<table style="width:100%" 
+ 
+  
+  <tr>
+
+    
+<hr size="14x" color=#0082C3 >
+
+
+    <th>Item</th>
+    <th>Ürüm Adı</th> 
+    <th>Ekleme Tarihi</th>  
+    <th>Gönderilen</th>
+    <th>Gönderen</th>
+    <th>Durum</th>
+
+  </hr>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>
